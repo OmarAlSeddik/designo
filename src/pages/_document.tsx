@@ -10,6 +10,7 @@ export default function Document() {
         href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap"
         rel="stylesheet"
       />
+      <link rel="icon" href="/favicon-32x32.png" />
       <body className="font-jost">
         <Main />
         <NextScript />
