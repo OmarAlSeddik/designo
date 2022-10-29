@@ -13,7 +13,7 @@ const Home = () => {
             fully responsive websites, app design, and engaging brand
             experiences. Find out more about our services.
           </p>
-          <button className="h-14 w-[9.5rem] rounded-[0.5rem] bg-white text-[0.9375rem] font-medium uppercase leading-[1.375rem] tracking-[0.0625rem] text-darkGrey">
+          <button className="h-14 w-[9.5rem] cursor-pointer rounded-[0.5rem] bg-white text-[0.9375rem] font-medium uppercase leading-[1.375rem] tracking-[0.0625rem] text-darkGrey">
             Learn More
           </button>
         </div>
@@ -94,6 +94,75 @@ const Home = () => {
               />
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="mx-auto mb-[7.5rem] flex w-container flex-col items-center gap-20">
+        <div className="flex flex-col items-center">
+          <div className="relative h-[12.625rem] w-[12.625rem]">
+            <Image
+              src="/home/desktop/bg-pattern-hero-home.svg"
+              alt=""
+              layout="fill"
+            />
+            <Image
+              src="/home/desktop/illustration-passionate.svg"
+              alt=""
+              layout="fill"
+            />
+          </div>
+          <h3 className="mb-8 text-h3 font-medium uppercase tracking-[0.3125rem] text-darkGrey">
+            PASSIONATE
+          </h3>
+          <p className="text-center text-body text-darkGrey">
+            Each project starts with an in-depth brand research to ensure we
+            only create products that serve a purpose. We merge art, design, and
+            technology into exciting new solutions.
+          </p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="relative h-[12.625rem] w-[12.625rem]">
+            <Image
+              src="/home/desktop/bg-pattern-hero-home.svg"
+              alt=""
+              layout="fill"
+            />
+            <Image
+              src="/home/desktop/illustration-resourceful.svg"
+              alt=""
+              layout="fill"
+            />
+          </div>
+          <h3 className="mb-8 text-h3 font-medium uppercase tracking-[0.3125rem] text-darkGrey">
+            RESOURCEFUL
+          </h3>
+          <p className="text-center text-body text-darkGrey">
+            Everything that we do has a strategic purpose. We use an agile
+            approach in all of our projects and value customer collaboration. It
+            guarantees superior results that fulfill our clients’ needs.
+          </p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="relative h-[12.625rem] w-[12.625rem]">
+            <Image
+              src="/home/desktop/bg-pattern-hero-home.svg"
+              alt=""
+              layout="fill"
+            />
+            <Image
+              src="/home/desktop/illustration-friendly.svg"
+              alt=""
+              layout="fill"
+            />
+          </div>
+          <h3 className="mb-8 text-h3 font-medium uppercase tracking-[0.3125rem] text-darkGrey">
+            FRIENDLY
+          </h3>
+          <p className="text-center text-body text-darkGrey">
+            We are a group of enthusiastic folks who know how to put people
+            first. Our success depends on our customers, and we strive to give
+            them the best experience a company can provide.
+          </p>
         </div>
       </section>
     </>
