@@ -12,6 +12,9 @@ module.exports = {
         h3: ["1.25rem", "1.3"],
         body: ["clamp(0.94rem, calc(0.89rem + 0.22vw), 1.00rem)", "1.625"],
       },
+      width: {
+        container: "clamp(20.44rem, calc(3.18rem + 73.62vw), 69.44rem)",
+      },
       colors: {
         peach: "#E7816B",
         lightPeach: "FFAD9B",
