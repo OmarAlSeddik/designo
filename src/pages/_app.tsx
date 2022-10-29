@@ -1,5 +1,6 @@
 import type { AppType } from "next/dist/shared/lib/utils";
 import Head from "next/head";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import "../styles/globals.css";
 
@@ -11,6 +12,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
       </Head>
       <Header />
       <Component {...pageProps} />
+      <Footer />
     </>
   );
 };
